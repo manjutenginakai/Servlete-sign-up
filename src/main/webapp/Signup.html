@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Signup</title>
+</head>
+
+<style>
+body {
+	width: auto;
+	height: auto; //
+	background-color: rgb(166, 172, 172);
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	text-align: center;
+}
+</style>
+
+<body>
+
+	<fieldset style="width: 400px;">
+	<form action="xyz" method="post">
+		<table>
+
+			<h2>Enter Details</h2>
+			<tr>
+				<td><label for="Name">Name</label></td>
+
+				<td><input type="text" id="name"  name="Name" placeholder="Name" required></td>
+
+			</tr>
+
+			<tr>
+				<td><label for="mail">E-mail</label></td>
+
+				<td><input type="text" id="e-mail"  name="E-mail" placeholder="E-mail"
+					required></td>
+
+			</tr>
+
+			<tr>
+				<td><label for="P_number">Phone Number</label></td>
+
+				<td><input type="text" id="P_number"  name="P_number" placeholder="Phone"
+					required></td>
+
+			</tr>
+
+			<tr>
+				<td><label for="password">Password</label></td>	
+
+				<td><input type="text" id="Password"  name="Password" placeholder="Password"
+					required></td>
+
+			</tr>
+
+			<tr>
+				<td><label for="s">Gender</label></td>
+				<td><input type="radio" id="s" name="Gender" value="Male">Male
+					<input type="radio" id="s" name="Gender" value="Female">Female <input
+					        type="radio" id="s" name="Gender" value="Others">Others</td>
+			</tr>
+
+			<tr>
+				<td>
+					<button type="reset">Cancel</button>
+				</td>
+
+
+				<td>
+					<button type="submit">Submit</button>
+				</td>
+			</tr>
+			
+		</table>
+		</form>
+		<a href="Home.html"><button>Back</button></a>
+	</fieldset>
+
+
+</body>
+</html>
