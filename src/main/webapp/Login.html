@@ -3,17 +3,83 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Login</title>
-</head>
 
 <style>
-body {
-	width: auto;
-	height: auto;
-	background-color: pink;
-	display: flex;
-	justify-content: center;
+	
+	body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ffd1dc; /* Light pink background */
 }
+
+fieldset {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #e91e63; /* Dark pink border */
+    border-radius: 10px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #e91e63; /* Dark pink text color */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #ccc; /* Light gray background for Cancel button */
+}
+
+button[type="submit"] {
+    background-color: #e91e63; /* Dark pink background for Login button */
+    color: #fff; /* White text color */
+}
+
+a {
+    text-decoration: none;
+}
+
+a button {
+    background-color: #2196f3; /* Blue background for Back button */
+    color: #fff; /* White text color */
+}
+
+a button:hover,
+button[type="submit"]:hover,
+a button:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
+
+button[type="reset"]:hover {
+    background-color: #999; /* Darker gray on hover for Cancel button */
+}
+
 </style>
+</head>
+
+
 
 <body>
 	<fieldset style="width: 300px; height: 200px;">
